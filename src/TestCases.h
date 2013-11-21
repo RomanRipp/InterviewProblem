@@ -15,8 +15,17 @@ class TestCases {
 public:
 	TestCases();
 	virtual ~TestCases();
+	/**
+	 * Test the algorithm with an array of random size
+	 */
 	static void randomArrayTest();
+	/**
+	 * Test the algorithm with an empty array
+	 */
 	static void emptyArrayTest();
+	/**
+	 * Test the algorithm with an array of large size
+	 */
 	static void largeArrayTest();
 	static void printResult(FindInArray f);
 };
